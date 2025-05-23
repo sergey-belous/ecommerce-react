@@ -7,7 +7,7 @@ services:
       dockerfile: ./nodejs/Dockerfile
     container_name: nodejs
     ports:
-      - "5173:5173"
+      - "80:80"
     tty: true
     volumes:
       - ./app:/app
